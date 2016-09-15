@@ -1,23 +1,49 @@
 ---
 layout: default
+title: Home
+permalink: /
 ---
+    <!-- Full Width Image Header with Logo -->
+    <!-- Image backgrounds are set within the custom.css file. -->
+    <header class="image-bg-fluid-height">
+        <!--<img class="img-responsive img-center" src="http://placehold.it/200x200&text=Logo" alt="">-->
+        <div class="text-center">
+          <img class="img-responsive img-center" src="assets/images/label-nashville.png" alt="">
+        </div>
+    </header>
 
-<div class="home">
+    <!-- Content Section -->
+    <section>
+        <br>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1 class="section-heading">Copyleft.io</h1>
+                    <p class="lead section-lead">A group of technology hobbyists and practitioners. </p>
+                    <p>We are a unique blend of talented engineers who share a passion for designing, building, and shipping open source
+                      solutions.  We have hands-on experience delivering highly automated, scalable, flexible, and cost
+                      effective cloud platforms using open source technology. </p>
+                    <p>Our team of hobbyists initially met and worked together over the course of several years for an international startup based in Nashville.
+                      As we have moved about to take on new opportunities, we launched Copyleft.io as a way to stay connected and to
+                    provide a mechanism for sharing our findings, rantings, projects, and inner daemons.</p>
+                    <p>Based in Nashville Tennessee we are focused on serving the communities where we live, learn, work and play.</p>
+                </div>
+            </div>
+        </div>
+        <br>
+    </section>
 
-  <h1 class="page-heading">Posts</h1>
-
-  <ul class="post-list">
+    <hr>
+    <h2><i class="fa fa-file-text-o"></i> Recent Posts</h2>
+    <br>
+<section class="post-list">
+  <div class="container">
     {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title | escape }}</a>
-        </h2>
-      </li>
+      <article class="post-item">
+        <span class="post-meta date-label">{{ post.date | date: "%b %d %Y" }}</span>
+        <div class="article-title"><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></div>
+      </article><br>
     {% endfor %}
-  </ul>
+  </div>
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
-</div>
+</section>

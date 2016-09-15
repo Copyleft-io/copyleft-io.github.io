@@ -1,0 +1,22 @@
+---
+layout: default
+title: Blog
+permalink: /blog/
+---
+<div class="container">
+<!-- Introduction Row -->
+<h2><i class="fa fa-file-text-o"></i> Blog</h2>
+<br>
+<section class="post-list">
+<div class="container">
+{% for post in site.posts %}
+  <article class="post-item">
+    <span class="post-meta date-label">{{ post.date | date: "%b %d %Y" }}</span>
+    <div class="article-title"><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></div>
+  </article><br>
+{% endfor %}
+</div>
+
+</section>
+</div>
+<!-- /.container -->
