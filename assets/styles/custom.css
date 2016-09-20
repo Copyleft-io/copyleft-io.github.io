@@ -25,6 +25,10 @@ body {
   height: 100px;
 }
 
+.img-profiile-pic {
+  height: 128px;
+  width: 128px;
+}
 .img-brand {
   height: 24px;
   width: 30px;
