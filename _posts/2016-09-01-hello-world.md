@@ -35,14 +35,6 @@ Cheers!
 
 
 
-<br>
-### Say Hello!
-
-Email: [hello@copyleft.io][email]
-
-Twitter: [@copyleftio][twitter]
-
-
 [author-email]: mailto:brian.hooper@copyleft.io
 [email]: mailto:hello@copyleft.io
 [twitter]: https://twitter.com/copyleftio
