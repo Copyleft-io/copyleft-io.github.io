@@ -12,25 +12,26 @@ Thursday, September 1, 2016
 ---
 
 ### Welcome!  
-The hobbyists at Copyleft.io are practitioners in the field of technology. We have varying
-backgrounds and experience ranging from software development, big data analytics, to
-infrastructure engineering.
+The practitioners at Copyleft.io are professionals in the field of technology. We have varying
+backgrounds and experience ranging from software development and big data analytics to cloud
+services and infrastructure engineering.
 
 <br>
-Our team initially met and worked together over the
-course of several years for an international startup based in Nashville, Chicago,
-and London. During our time working together we enjoyed the challenge and freedom of
-using open source technology to deliver and support a big data analytics and targeting platform
-for financial institutions in the payment card and advertising industry.
+Our team initially met and worked together over the course of several years for
+an international startup based in Nashville, Chicago, and London. During our time
+working together we enjoyed the challenge and freedom of using open source technology
+to deliver and support a big data analytics and targeting platform for financial
+institutions in the payment card and advertising industry.
 
 <br>
 As we have moved about to explore new opportunities we've used Copyleft.io
-as a way to stay connected while working in the field.  Here you will find our thoughts,
-ideas, rants, and inner daemons.
+as a way to stay connected while working in the field.  In addition to our consulting
+services here you will also find our thoughts, ideas, rants, and inner daemons.
 
 <br>
 Cheers!
 <br>-Brian
+
 
 
 
