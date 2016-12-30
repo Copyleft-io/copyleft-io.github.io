@@ -45,7 +45,7 @@ The OpenSSL pkcs12 command allows PKCS#12 files (sometimes referred to as PFX fi
 
 Let's say you ever need to test an external facing REST API over HTTPS that is secured via a Client SSL Certificates... you know, just to validate a renewed Client SSL Certificate before you ship it over to the client. ;)
 
-The cURL command below will allow you to use your new .pfx file to authenticate and resolve the service via Public IP.  Simply change out the <parameters> for your test.  
+The cURL command below will allow you to use your new .pfx file to authenticate and resolve the service via Public IP.  Simply change out the &lt;parameters&gt; for your test.  
 
     curl -H "Content-Type: application/json" -X GET -v --cert "<myNew.pfx:pa55word>" <https://rest.api.com/12345> --resolve <rest.api.com>:443:<ipaddress> --tlsv1.2
 
