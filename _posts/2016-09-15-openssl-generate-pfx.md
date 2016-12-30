@@ -17,6 +17,7 @@ Sometimes there are cases when you have a separate private key and certificate p
 The OpenSSL pkcs12 command allows PKCS#12 files (sometimes referred to as PFX files) to be created and parsed.
 
 <br>
+
 ### The Command
 
     openssl pkcs12 -export -in myCertificate.pem -inkey myPrivate.key -out myNewPFX.pfx
@@ -39,6 +40,7 @@ The OpenSSL pkcs12 command allows PKCS#12 files (sometimes referred to as PFX fi
 
 
 <br>
+
 ### Using our new PFX
 
 Let's say you ever need to test an external facing REST API over HTTPS that is secured via a Client SSL Certificates... you know, just to validate a renewed Client SSL Certificate before you ship it over to the client. ;)
