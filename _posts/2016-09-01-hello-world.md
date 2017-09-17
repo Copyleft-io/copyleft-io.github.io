@@ -25,8 +25,8 @@ institutions in the payment card and advertising industry.
 
 <br>
 As we have moved about to explore new opportunities we've used Copyleft.io
-as a way to stay connected while working in the field.  In addition to our consulting
-services here you will also find our thoughts, ideas, rants, and inner daemons.
+as a way to stay connected while working in the field.  H
+ere you will also find our thoughts, ideas, rants, and inner daemons.
 
 <br>
 Cheers!

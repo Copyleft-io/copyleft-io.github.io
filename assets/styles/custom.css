@@ -25,6 +25,11 @@ body {
   height: 100px;
 }
 
+.img-watch {
+  height: 256px;
+  width: 256px;
+}
+
 .img-profiile-pic {
   height: 256px;
   width: 256px;
@@ -49,7 +54,7 @@ body {
 
 .image-bg-fluid-height {
 	/*background: url('http://lorempixel.com/g/1920/500/') no-repeat center center scroll;*/
-  background: url('../images/nashville.jpg') no-repeat center center scroll;
+  background: url('../images/camp.jpg') no-repeat center center scroll;
     padding: 100px 0;
 }
 
